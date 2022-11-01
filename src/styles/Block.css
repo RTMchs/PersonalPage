@@ -1,0 +1,50 @@
+
+.blocks {
+    max-width: 100%;
+    display: flex;
+    align-self: center;
+    margin: 5% 100px;
+}
+
+.blocksUnit{
+    padding: 0 10px;
+    text-align: center;
+    width: 25%;
+    border-color: rgba(0, 0, 0, 0);
+    border-style:solid;
+    border-width: 2px;
+    border-radius: 10%;
+    margin-left: 10px;
+    transition: border-color .2s linear, box-shadow .2s linear;
+}
+
+.blocksUnit:hover {
+    border-style: solid;
+    border-color: rgb(76, 214, 238);
+}
+
+.blocksImage {
+    margin-top: auto;
+    vertical-align: middle;
+    margin-bottom: 5px;
+    padding-bottom: 0;
+    width: 50px;
+    text-decoration: none;
+}
+
+.blocksTitle {
+    color: rgb(108, 49, 189);
+    margin-top: 0;
+    margin-bottom: auto;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-shadow: 1px 0 1px #dd34d0;
+}
+
+.blocksText {
+    color: rgb(116, 181, 255);;
+    font-size: 15px;
+    line-height: 1.5;
+    text-shadow: 1px 1px 1px black;
+    padding-inline: inherit;
+}
