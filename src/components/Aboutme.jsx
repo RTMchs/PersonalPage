@@ -2,6 +2,7 @@ import '../styles/App.css'
 import React from 'react';
 import Block from "./Block";
 import '../styles/Block.css'
+import '../styles/adaptive.css';
 
 const Aboutme = () => {
     return (

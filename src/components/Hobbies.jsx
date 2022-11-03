@@ -1,6 +1,7 @@
 import React from 'react';
 import Block from "./Block";
 import '../styles/App.css'
+import '../styles/adaptive.css';
 
 
 const Hobbies = () => {

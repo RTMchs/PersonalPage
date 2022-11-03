@@ -1,0 +1,148 @@
+@media only screen and (max-width: 800px) {
+
+    .title {
+        padding-top: 20px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .nametxt {
+        font-size: 24px;
+    }
+
+    .blocks {
+        margin: 50px 50px;
+    }
+
+    .blocksUnit{
+        text-align: center;
+        width: 23%;
+        margin-left: 1.5%;
+    }
+
+    .blocksImage {
+        width: 35px;
+    }
+
+    .blocksTitle {
+        font-size: 12px;
+        text-transform: none;
+    }
+
+    .blocksText {
+        font-size: 12px;
+    }
+
+    .footerBlock {
+        display: block;
+    }
+
+    .titlefoot {
+        color:white;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .footerUnit {
+        width: 33%;
+        font-size: 14px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .title {
+        padding-top: 15px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .nametxt {
+        font-size: 20px;
+    }
+
+    .blocks {
+        margin: 50px 50px;
+    }
+
+    .blocksUnit{
+        text-align: center;
+        width: 23%;
+        margin-left: 1.5%;
+    }
+
+    .blocksImage {
+        width: 25px;
+    }
+
+    .blocksTitle {
+        font-size: 10px;
+        text-transform: none;
+    }
+
+    .blocksText {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .title {
+        padding-top: 15px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .title::after {
+        content: "";
+        margin:auto;
+        display: block;
+        width: 70%;
+        height: 1px;
+        margin-top: 5px;
+        background-color: rgb(206, 76, 238);
+    }
+
+    .bookTitle::after {
+        content: "";
+        margin:auto;
+        display: block;
+        width: 70%;
+        height: 1px;
+        margin-top: 5px;
+        background-color: rgb(206, 76, 238);
+    }
+
+    .nametxt {
+        font-size: 16px;
+    }
+
+    .blocks {
+        display: block;
+        margin: 10px 10px;
+    }
+
+    .blocksUnit{
+        text-align: center;
+        width: 100%;
+        margin: 10px 0 0 0;
+    }
+
+    .blocksImage {
+        width: 17px;
+    }
+
+    .blocksTitle {
+        font-size: 11px;
+    }
+
+    .blocksText {
+        font-size: 11px;
+    }
+}

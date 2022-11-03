@@ -1,5 +1,6 @@
 import React from 'react';
 import Block from "./Block";
+import '../styles/adaptive.css';
 
 const Skills = () => {
     return (
