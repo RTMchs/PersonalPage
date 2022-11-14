@@ -1,3 +1,4 @@
+
 @media only screen and (max-width: 800px) {
 
     .title {
@@ -6,31 +7,28 @@
         justify-content: space-between;
     }
 
-    .nametxt {
-        font-size: 24px;
+    .blocks {
+        width: 45%;
+        display:inline-block;
+        margin: 5% 2%;
     }
 
-    .blocks {
-        margin: 50px 50px;
+    .blocksh {
+        width: 45%;
+        display:inline-block;
+        margin: 5% 2%;
     }
 
     .blocksUnit{
         text-align: center;
-        width: 23%;
-        margin-left: 1.5%;
+        width: 100%;
+        margin: 5%;
     }
 
-    .blocksImage {
-        width: 35px;
-    }
-
-    .blocksTitle {
-        font-size: 12px;
-        text-transform: none;
-    }
-
-    .blocksText {
-        font-size: 12px;
+    .hobUnit {
+        text-align: center;
+        width: 100%;
+        margin: 5%;
     }
 
     .footerBlock {
@@ -51,10 +49,6 @@
 
 }
 
-@media (max-width: 800px) {
-
-}
-
 @media only screen and (max-width: 600px) {
 
     .title {
@@ -63,32 +57,26 @@
         justify-content: space-between;
     }
 
-    .nametxt {
-        font-size: 20px;
+    .blocks {
+        margin: 10px 2%;
+    }
+    .blocksh {
+        margin: 10px 2%;
+        display: inline-block;
     }
 
-    .blocks {
-        margin: 50px 50px;
+    .hobUnit {
+        text-align: center;
+        width: 100%;
+        margin-left: 1.5%;
     }
 
     .blocksUnit{
         text-align: center;
-        width: 23%;
+        width: 100%;
         margin-left: 1.5%;
     }
 
-    .blocksImage {
-        width: 25px;
-    }
-
-    .blocksTitle {
-        font-size: 10px;
-        text-transform: none;
-    }
-
-    .blocksText {
-        font-size: 10px;
-    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -119,30 +107,44 @@
         background-color: rgb(206, 76, 238);
     }
 
-    .nametxt {
-        font-size: 16px;
+    .blocksCon {
+        display: block;
     }
 
     .blocks {
         display: block;
-        margin: 5px 0;
+        margin: 10px 5%;
+        width: 90%;
+    }
+
+    .blocksh {
+        display: block;
+        margin: 10px 5%;
+        width: 90%;
     }
 
     .blocksUnit{
         text-align: center;
         width: 100%;
-        margin: 7px 0 0 0;
+        margin: 7% 0 0 0;
     }
 
-    .blocksImage {
-        width: 17px;
+    .hobUnit {
+        text-align: center;
+        width: 100%;
+        margin: 7% 0 0 0;
     }
 
-    .blocksTitle {
-        font-size: 11px;
+    .backSkills {
+        height: 130vh;
     }
 
-    .blocksText {
-        font-size: 11px;
+    .backHob {
+        height: 130vh;
     }
+
+    .back {
+        height: 120vh;
+    }
+
 }

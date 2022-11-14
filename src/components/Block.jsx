@@ -5,7 +5,7 @@ import '../styles/adaptive.css';
 const Block = (props) => {
     console.log(props);
     return (
-            <div className="blocksUnit">
+            <div className={props.unit.cname}>
                 <a href={props.unit.ref} target="_blank" rel="noopener noreferrer">
                     <img className="blocksImage" src={props.unit.pict} alt=""/>
                 </a>
