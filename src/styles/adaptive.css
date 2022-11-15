@@ -7,6 +7,18 @@
         justify-content: space-between;
     }
 
+    .backSkills {
+        height: 140vh;
+    }
+
+    .backHob {
+        height: 150vh;
+    }
+
+    .back {
+        height: 140vh;
+    }
+
     .blocks {
         width: 45%;
         display:inline-block;
@@ -77,6 +89,18 @@
         margin-left: 1.5%;
     }
 
+    .backSkills {
+        height: 150vh;
+    }
+
+    .backHob {
+        height: 150vh;
+    }
+
+    .back {
+        height: 140vh;
+    }
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -136,15 +160,15 @@
     }
 
     .backSkills {
-        height: 200vh;
+        height: 250vh;
     }
 
     .backHob {
-        height: 200vh;
+        height: 270vh;
     }
 
     .back {
-        height: 200vh;
+        height: 250vh;
     }
 
 }
